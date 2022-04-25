@@ -1,0 +1,67 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+  
+.margin {
+    margin-bottom: 45px;
+}
+
+.jumbotron {
+    padding-bottom: 0em;
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.bg-1 { 
+    color: black;
+    padding-right: 25em;
+    padding-left: 25em;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+  
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+@media (max-width:1400px) {
+    .jumbotron, .bg-1, .bg-4 {
+        padding: 20px
+    }
+}
+
+  .navbar-nav  li a {
+    font-size: small;
+    padding: 5px;
+    color: goldenrod;
+  }
